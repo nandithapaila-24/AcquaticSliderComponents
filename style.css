@@ -1,0 +1,1113 @@
+body{
+    background-color:#e1f7ff;
+}
+
+.slidecontainer{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    align-content:center;
+}
+
+
+.slidercoral{
+    background-image:url('assets/codingcoralsliders-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingcoralsliders-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.slidercoral::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingcoralsliders-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.slidercoral::-moz-range-thumb {
+    background-image:url('assets/codingcoralsliders-02.png');
+    width:100px;
+    height:100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.slidersubmarine{
+    background-image:url('assets/codingsubmarineslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingsubmarineslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px; 
+}
+
+.slidersubmarine2{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    color:#e1f7ff;
+    width: 50%;
+    height: 120px; 
+}
+
+.slidersubmarine::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingsubmarineslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+    animation: bounce 1s infinite;
+}
+
+.slidersubmarine::-moz-range-thumb {
+    background-image:url('assets/codingsubmarineslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    animation: bounce 1s infinite;
+}
+
+
+.sliderbuoy{
+    background-image:url('assets/codingbuoyslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingbuoyslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderbuoy::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingbuoyslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+    /* animation:spin 2s infinite; */
+}
+
+.sliderbuoy::-moz-range-thumb {
+    background-image:url('assets/codingbuoyslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    /* animation:spin 2s infinite; */
+}
+
+.sliderbuoy::-webkit-slider-thumb:hover{
+    animation:spin 2s infinite;
+}
+
+
+.sliderbarnacle{
+    background-image:url('assets/codingbarnacleslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingbarnacleslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderbarnacle::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingbarnacleslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+    animation:gummy 2s infinite ease;
+}
+
+.sliderbarnacle::-moz-range-thumb {
+    background-image:url('assets/codingbarnacleslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    animation:gummy 2s infinite ease;
+}
+
+
+
+.slidersailboat{
+    background-image:url('assets/codingsailboatslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingsailboatslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.slidersailboat::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingsailboatslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.slidersailboat::-moz-range-thumb {
+    background-image:url('assets/codingsailboatslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.sliderfishfamily{
+    background-image:url('assets/codingfishfamilyslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingfishfamilyslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderfishfamily::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingfishfamilyslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+     animation:bounce 2s infinite ease;
+}
+
+.sliderfishfamily::-moz-range-thumb {
+    background-image:url('assets/codingfishfamilyslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    animation:bounce 2s infinite ease;
+}
+
+
+.slideranchor{
+    background-image:url('assets/codinganchorslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codinganchorslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.slideranchor::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codinganchorslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.slideranchor::-moz-range-thumb {
+    background-image:url('assets/codinganchorslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.sliderbeachball{
+    background-image:url('assets/codingbeachballslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingbeachballslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderbeachball::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingbeachballslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.sliderbeachball::-moz-range-thumb {
+    background-image:url('assets/codingbeachballslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.sliderbluefish{
+    background-image:url('assets/codingbluefishslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingbluefishslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderbluefish::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingbluefishslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.sliderbluefish::-moz-range-thumb {
+    background-image:url('assets/codingbluefishslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.slidercanoe{
+    background-image:url('assets/codingcanoeslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingcanoeslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.slidercanoe::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingcanoeslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.slidercanoe::-moz-range-thumb {
+    background-image:url('assets/codingcanoeslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.sliderdolphin{
+    background-image:url('assets/codingdolphinslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingdolphinslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderdolphin::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingdolphinslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.sliderdolphin::-moz-range-thumb {
+    background-image:url('assets/codingdolphinslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.sliderflipflop{
+    background-image:url('assets/codingflipflopsslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingflipflopsslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderflipflop::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingflipflopsslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.sliderflipflop::-moz-range-thumb {
+    background-image:url('assets/codingflipflopsslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.slideroctopi{
+    background-image:url('assets/codingoctopislider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingoctopislider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.slideroctopi::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingoctopislider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.slideroctopi::-moz-range-thumb {
+    background-image:url('assets/codingoctopislider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.sliderseashell{
+    background-image:url('assets/codingseashellsslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingseashellsslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderseashell::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingseashellsslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.sliderseashell::-moz-range-thumb {
+    background-image:url('assets/codingseashellsslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.sliderpopsicle{
+    background-image:url('assets/codingpopsicleslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingpopsicleslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderpopsicle::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingpopsicleslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.sliderpopsicle::-moz-range-thumb {
+    background-image:url('assets/codingpopsicleslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.slidersandcastle{
+    background-image:url('assets/codingsandcastleslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingsandcastleslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.slidersandcastle::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingsandcastleslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.slidersandcastle::-moz-range-thumb {
+    background-image:url('assets/codingsandcastleslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.sliderseahorse{
+    background-image:url('assets/codingseahorseslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingseahorseslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderseahorse::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingseahorseslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.sliderseahorse::-moz-range-thumb {
+    background-image:url('assets/codingseahorseslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.sliderseal{
+    background-image:url('assets/codingsealslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingsealslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderseal::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingsealslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.sliderseal::-moz-range-thumb {
+    background-image:url('assets/codingsealslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.slidersmallship{
+    background-image:url('assets/codingsmallshipslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingsmallshipslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.slidersmallship::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingsmallshipslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.slidersmallship::-moz-range-thumb {
+    background-image:url('assets/codingsmallshipslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.slidersnorkel{
+    background-image:url('assets/codingsnorkelslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingsnorkelslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.slidersnorkel::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingsnorkelslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.slidersnorkel::-moz-range-thumb {
+    background-image:url('assets/codingsnorkelslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.slidersurfboard{
+    background-image:url('assets/codingsurferslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingsurferslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.slidersurfboard::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingsurferslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.slidersurfboard::-moz-range-thumb {
+    background-image:url('assets/codingsurferslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.sliderstarfish{
+    background-image:url('assets/codingstarfishslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingstarfishslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderstarfish::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingstarfishslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.sliderstarfish::-moz-range-thumb {
+    background-image:url('assets/codingstarfishslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.sliderswimmer{
+    background-image:url('assets/codingswimmerslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingswimmerslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.sliderswimmer::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingswimmerslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.sliderswimmer::-moz-range-thumb {
+    background-image:url('assets/codingswimmerslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.slidertreasurechest{
+    background-image:url('assets/codingtreasurechestslider-01.png');
+     -webkit-appearance: none;
+    appearance: none;
+     background: url('assets/codingtreasurechestslider-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+     width: 50%;
+    height: 120px;
+}
+
+.slidertreasurechest::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/codingtreasurechestslider-02.png');
+    width: 115px;
+    height: 130px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.slidertreasurechest::-moz-range-thumb {
+    background-image:url('assets/codingtreasurechestslider-02.png');
+    width:9em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+
+.slidervertical-slider{
+    /* background-image:url('assets/codingfishfamilyslider-01.png'); */
+     -webkit-appearance: none;
+     /* appearance:slider-vertical; */
+     /* background: url('assets/codingfishfamilyslider-01.png'); */
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    width: 100%;
+    width:3200px;
+    height: 100px;
+    transform:rotate(-90deg);
+    position:absolute;
+    top:1530px;
+    left:-1100px;
+    pointer-events: none;
+}
+
+.slidervertical-slider::-webkit-slider-runnable-track {
+    background: transparent;
+}
+
+.slidervertical-slider::-moz-range-track {
+    background: transparent;
+}
+
+.slidervertical-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-image:url('assets/duckcharacterslider.png');
+    width: 120px;
+    height: 2000px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 010px;
+    pointer-events: auto;
+     /* animation:bounce 2s infinite ease; */
+}
+
+.slidervertical-slider::-moz-range-thumb {
+    background-image:url('assets/duckcharacterslider.png');
+    width:12em;
+    height: 2000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    pointer-events: auto;
+    /* animation:bounce 2s infinite ease; */
+}
+
+
+@keyframes bounce{
+    0%{transform:translateY(0px);}
+    50%{transform:translateY(-30px);}
+    100%{transform:translateY(0px);}
+}
+
+@keyframes spin{
+    0%{transform:rotate(0deg);}
+    50%{transform:rotate(90deg);}
+    100%{transform:rotate(0deg);}
+}
+
+@keyframes bounce{
+    0%{transform:translateY(0px);}
+    30%{transform:translateY(-30px);}
+    70%{transform:translateY(0px);}
+    /* 100%{transform:translateY(30px);} */
+}
+
+@keyframes gummy{
+    0%{transform:scale(1.0, 1.0);}
+    30%{transform:scale(1.15, 0.85);}
+    40%{transform:scale(0.9, 1.1);}
+    55%{transform:scale(1.05, 0.95);}
+    70%{transform:scale(0.98, 1.02);}
+    100%{transform:scale(1.0, 1.0);}
+}
+
+
+/* img {
+    width: 50%;
+    height: auto;
+} */
+
+/* .coralslider{
+    width: 50%;
+    height: auto;
+} */
+
+/* 
+.slider {
+   
+     width: 80%;
+    height: 150px;
+    background: #ffffff;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    -webkit-appearance: none;
+    appearance: none;
+    background: url('assets/codingcoralsliders-02.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 75px;
+    height: 150px;
+    border: none;
+    background-image: url('assets/codingcoralsliders-02.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+    
+}
+
+.slider::-moz-range-thumb {
+    width: 75px;
+    height: 32px;
+    border: none;
+    background-image: url('assets/codingcoralsliders-02.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+} */
+
+
+
+
+
+.landing-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #e1f7ff;
+        }
+        .landing-title {
+            font-size: 2.5rem;
+            color: #0077b6;
+            margin-bottom: 2rem;
+            font-family: "Freckle Face", system-ui;
+        }
+        .play-btn {
+            font-size: 2rem;
+            padding: 1rem 3rem;
+            background: #00b4d8;
+            color: #fff;
+            border: none;
+            border-radius: 2rem;
+            cursor: pointer;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            transition: background 0.2s, transform 0.2s;
+        }
+        .play-btn:hover {
+            background: #0096c7;
+            transform: scale(1.05);
+        }
